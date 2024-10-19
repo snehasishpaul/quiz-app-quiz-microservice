@@ -88,7 +88,7 @@ public class QuizServiceImpl implements QuizService {
                     .build();
             return Response.<QuizDto>builder()
                     .content(dto)
-                    .message("Quiz created successfully")
+                    .message("Quiz updated successfully")
                     .status(HttpStatus.OK)
                     .build();
         } catch (Exception e) {
